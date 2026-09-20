@@ -1,3 +1,4 @@
+
 SELECT
   species AS PenguinSpecies,
   COUNT(*) AS PenguinCount
