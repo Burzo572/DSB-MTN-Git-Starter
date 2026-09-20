@@ -1,4 +1,5 @@
 # DSB-MTN-Git-Starter
+
 Github Starter for the Montenegro DS Group!
 Welcome to your first Data Science Bootcamp repository.
 
@@ -22,12 +23,12 @@ This small project will help you practise how to:
 
 ## Repository contents
 
-| File | Purpose | Where it runs |
-|---|---|---|
-| `hello.py` | A small Python program | Python on your computer |
+| File             | Purpose                                            | Where it runs                     |
+| ---------------- | -------------------------------------------------- | --------------------------------- |
+| `hello.py`       | A small Python program                             | Python on your computer           |
 | `analysis.ipynb` | A Jupyter notebook with Markdown, code, and output | VS Code, Jupyter, or Google Colab |
-| `question.sql` | A SQL query | Google BigQuery |
-| `README.md` | Instructions and project documentation | Displayed by GitHub and VS Code |
+| `Question.SQL`   | A SQL query                                        | Google BigQuery                   |
+| `README.md`      | Instructions and project documentation             | Displayed by GitHub and VS Code   |
 
 Git records changes to these files, but Git does not run them.
 
@@ -93,7 +94,7 @@ cd ga-course
 
 ### 3. Clone your repository
 
-Replace `YOUR_REPOSITORY_URL` with the URL of your GitHub repository.
+Replace `YOUR_REPOSITORY_URL` with the URL of the GitHub repository.
 
 ```bash
 git clone YOUR_REPOSITORY_URL
@@ -176,7 +177,7 @@ Open `analysis.ipynb` in VS Code.
 1. Click **Select Kernel**.
 2. Select the Python environment provided for the course.
 3. Run the first cell.
-4. Run the remaining cells using `Shift+Enter`.
+4. Run each remaining cell using `Shift+Enter`.
 5. Read the output.
 
 ### Your change
@@ -204,7 +205,7 @@ Run the cell and save the notebook.
 
 ## Examine the SQL file
 
-Open `question.sql` in VS Code.
+Open `Question.SQL` in VS Code.
 
 The file contains SQL text that can be submitted to Google BigQuery.
 
@@ -217,7 +218,7 @@ Add this comment at the top:
 When BigQuery access is available:
 
 1. Open Google BigQuery.
-2. Copy the query from `question.sql`.
+2. Copy the query from `Question.SQL`.
 3. Paste it into the BigQuery query editor.
 4. Run the query.
 5. Inspect the results.
@@ -239,7 +240,7 @@ You should see modified files such as:
 ```text
 modified: hello.py
 modified: analysis.ipynb
-modified: question.sql
+modified: Question.SQL
 ```
 
 Inspect your changes in the VS Code **Source Control** view.
@@ -251,7 +252,7 @@ Inspect your changes in the VS Code **Source Control** view.
 Stage the three exercise files:
 
 ```bash
-git add hello.py analysis.ipynb question.sql
+git add hello.py analysis.ipynb Question.SQL
 ```
 
 Check the result:
@@ -307,7 +308,7 @@ Then open your repository on GitHub and confirm that:
 - Your new commit is visible
 - `hello.py` contains your team name
 - `analysis.ipynb` contains your new cells
-- `question.sql` contains your comment
+- `Question.SQL` contains your comment
 - This README is displayed on the repository page
 
 ---
@@ -352,19 +353,19 @@ If you see a credential in `git status`, stop and ask before committing.
 
 ## Command reference
 
-| Command | Meaning |
-|---|---|
-| `pwd` | Show the current folder |
-| `ls` | List files and folders |
-| `cd folder-name` | Move into a folder |
-| `cd ..` | Move up one folder |
-| `mkdir folder-name` | Create a folder |
-| `git clone URL` | Copy a remote repository to your computer |
-| `git status` | Show what Git currently sees |
-| `git add FILE` | Stage a selected file |
-| `git commit -m "message"` | Record a local checkpoint |
-| `git push` | Send local commits to GitHub |
-| `git pull` | Bring remote commits into the local repository |
+| Command                   | Meaning                                        |
+| ------------------------- | ---------------------------------------------- |
+| `pwd`                     | Show the current folder                        |
+| `ls`                      | List files and folders                         |
+| `cd folder-name`          | Move into a folder                             |
+| `cd ..`                   | Move up one folder                             |
+| `mkdir folder-name`       | Create a folder                                |
+| `git clone URL`           | Copy a remote repository to your computer      |
+| `git status`              | Show what Git currently sees                   |
+| `git add FILE`            | Stage a selected file                          |
+| `git commit -m "message"` | Record a local checkpoint                      |
+| `git push`                | Send local commits to GitHub                   |
+| `git pull`                | Bring remote commits into the local repository |
 
 ---
 
@@ -390,7 +391,7 @@ Before finishing, explain these distinctions to your partner:
 - [ ] I changed the Python greeting
 - [ ] I selected a notebook kernel
 - [ ] I ran and changed `analysis.ipynb`
-- [ ] I examined and changed `question.sql`
+- [ ] I examined and changed `Question.SQL`
 - [ ] I used `git status`
 - [ ] I staged selected files
 - [ ] I created a meaningful commit
