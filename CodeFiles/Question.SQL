@@ -1,4 +1,5 @@
 
+--Count penguins by species
 SELECT
   species AS PenguinSpecies,
   COUNT(*) AS PenguinCount

@@ -1,4 +1,3 @@
-name = "Data Science Team"
+name = "Podgorica"
 
-print(f"Hello there, {name}!")
-
+print(f"Hello there, Podgorica!")
